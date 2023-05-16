@@ -4,14 +4,14 @@
 ## Run ExecuteScript.bat for easy execution of script.
 It will install the required dependencies and run automatically run the Python script 'script.py'
 
-### ExecuteScript operations:
+### 'ExecuteScript.bat' operations:
 - Creates a Python virtual environment named '.myVenv'
 - Activates the created virtual environment
 - Installs dependencies using requirements.txt in '.myVenv'
 - Downloads SpaCy 'en_core_web_md' English pipeline
 - Run Python script 'script.py'
 
-### script.py operations:
+### 'script.py' operations:
 - Performs web scraping from Online Khabar English news website (https://english.onlinekhabar.com/)
 - Saves scraped articles content into text files in a separate new 'Articles'' folder. The text files are named as integers i.e. '1.txt', '2.txt', '3.txt'... and so on
 - Creates an index Excel spreadsheet named 'Article Index.xlsx' containing the file name and the article title to keep track of articles
