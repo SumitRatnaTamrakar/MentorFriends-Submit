@@ -1,10 +1,10 @@
 # MentorFriends-Submit
 ## Task assignment repository
 
-##Run ExecuteScript.bat for easy execution of script.
+## Run ExecuteScript.bat for easy execution of script.
 It will install the required dependencies and run automatically run the Python script 'script.py'
 
-###ExecuteScript operations:
+### ExecuteScript operations:
 - Creates a Python virtual environment named '.myVenv'
 - Activates the created virtual environment
 - Installs dependencies using requirements.txt in '.myVenv'
